@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HybriMax", "HybriMax\HybriMax.vcxproj", "{22CE0E69-DB76-461C-8885-3AC57A1047E2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HybriMaxPS", "HybriMax\HybriMaxPS.vcxproj", "{596D548F-3F03-4321-B265-62880C4199BD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{22CE0E69-DB76-461C-8885-3AC57A1047E2} = {22CE0E69-DB76-461C-8885-3AC57A1047E2}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22CE0E69-DB76-461C-8885-3AC57A1047E2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{22CE0E69-DB76-461C-8885-3AC57A1047E2}.Debug|Win32.Build.0 = Debug|Win32
+		{22CE0E69-DB76-461C-8885-3AC57A1047E2}.Release|Win32.ActiveCfg = Release|Win32
+		{22CE0E69-DB76-461C-8885-3AC57A1047E2}.Release|Win32.Build.0 = Release|Win32
+		{596D548F-3F03-4321-B265-62880C4199BD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{596D548F-3F03-4321-B265-62880C4199BD}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
